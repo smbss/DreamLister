@@ -25,7 +25,10 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         tableView.delegate = self
         tableView.dataSource = self
         
-        //generateTestData()
+        let detectFirstLaunch = isFirstLaunch()
+        if detectFirstLaunch {
+            generateTestData()
+        }
         attemptFetch()
     }
     
@@ -215,6 +218,17 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         
         // Permanently saving it in CoreData
         ad.saveContext()
+    }
+    
+    func isFirstLaunch() -> Bool {
+        let defaults = UserDefaults.standard
+        if defaults.string(forKey: "isMainVCFirstLaunch") != nil {
+            return false
+        } else {
+            defaults.set(false, forKey: "isMainVCFirstLaunch")
+            defaults.synchronize()
+            return true
+        }
     }
     
 }

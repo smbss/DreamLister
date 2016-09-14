@@ -43,7 +43,11 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         priceField.delegate = self
         detailsField.delegate = self
         
-        //createStores()
+        let detectFirstLaunch = isFirstLaunch()
+        if detectFirstLaunch {
+            createStores()
+        }
+        
         getStores()
         
         // Checking if we are editing or adding a new item
@@ -169,6 +173,17 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         store6.name = "K Mart"
         // Saving it to CoreData
         ad.saveContext()
+    }
+    
+    func isFirstLaunch() -> Bool {
+        let defaults = UserDefaults.standard
+        if defaults.string(forKey: "isItemDetailsVCFirstLaunch") != nil {
+            return false
+        } else {
+            defaults.set(false, forKey: "isItemDetailsVCFirstLaunch")
+            defaults.synchronize()
+            return true
+        }
     }
     
     @IBAction func deletePressed(_ sender: UIBarButtonItem) {
