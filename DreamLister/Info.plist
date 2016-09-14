@@ -42,6 +42,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Picture your dreams</string>
+	<string>Allow the app to save pictures of your dreams.</string>
 </dict>
 </plist>

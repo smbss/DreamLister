@@ -1,9 +1,9 @@
 //
 //  ItemCell.swift
-//  25-DreamLister
+//  DreamLister
 //
-//  Created by Sandro Simes on 05/09/16.
-//  Copyright © 2016 SandroSimes. All rights reserved.
+//  Created by smbss on 05/09/16.
+//  Copyright © 2016 smbss. All rights reserved.
 //
 
 import UIKit

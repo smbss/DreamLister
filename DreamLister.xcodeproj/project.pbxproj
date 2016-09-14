@@ -15,7 +15,6 @@
 		AA60C2D41D88EB5B0078D75E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2D31D88EB5B0078D75E /* MainVC.swift */; };
 		AA60C2D71D88EB5B0078D75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA60C2D51D88EB5B0078D75E /* Main.storyboard */; };
 		AA60C2DA1D88EB5B0078D75E /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2D81D88EB5B0078D75E /* DreamLister.xcdatamodeld */; };
-		AA60C2DC1D88EB5B0078D75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA60C2DB1D88EB5B0078D75E /* Assets.xcassets */; };
 		AA60C2DF1D88EB5B0078D75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA60C2DD1D88EB5B0078D75E /* LaunchScreen.storyboard */; };
 		AA60C2EE1D88ED900078D75E /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2E61D88ED900078D75E /* ItemType+CoreDataClass.swift */; };
 		AA60C2EF1D88ED900078D75E /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2E71D88ED900078D75E /* ItemType+CoreDataProperties.swift */; };
@@ -25,6 +24,7 @@
 		AA60C2F31D88ED900078D75E /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2EB1D88ED900078D75E /* Store+CoreDataProperties.swift */; };
 		AA60C2F41D88ED900078D75E /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2EC1D88ED900078D75E /* Image+CoreDataClass.swift */; };
 		AA60C2F51D88ED900078D75E /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60C2ED1D88ED900078D75E /* Image+CoreDataProperties.swift */; };
+		AAE0AD991DB9B2620083D354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE0AD981DB9B2620083D354 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,6 @@
 		AA60C2D31D88EB5B0078D75E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		AA60C2D61D88EB5B0078D75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA60C2D91D88EB5B0078D75E /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
-		AA60C2DB1D88EB5B0078D75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA60C2DE1D88EB5B0078D75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA60C2E01D88EB5B0078D75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA60C2E61D88ED900078D75E /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		AA60C2EB1D88ED900078D75E /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AA60C2EC1D88ED900078D75E /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AA60C2ED1D88ED900078D75E /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AAE0AD981DB9B2620083D354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 				AA60C2F61D88EDBF0078D75E /* Model */,
 				AA60C2F71D88EDC80078D75E /* View */,
 				AA60C2D11D88EB5B0078D75E /* AppDelegate.swift */,
-				AA60C2DB1D88EB5B0078D75E /* Assets.xcassets */,
+				AAE0AD981DB9B2620083D354 /* Assets.xcassets */,
 				AA60C2D81D88EB5B0078D75E /* DreamLister.xcdatamodeld */,
 				AA60C2E01D88EB5B0078D75E /* Info.plist */,
 				AA60C2DD1D88EB5B0078D75E /* LaunchScreen.storyboard */,
@@ -118,8 +118,8 @@
 		AA60C2F81D88EDCF0078D75E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AA50B1261D8961BF00BC266C /* ItemDetailsVC.swift */,
 				AA60C2D31D88EB5B0078D75E /* MainVC.swift */,
+				AA50B1261D8961BF00BC266C /* ItemDetailsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,12 +162,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = smbss;
 				TargetAttributes = {
 					AA60C2CD1D88EB5A0078D75E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = BCUP3M7P3C;
+						DevelopmentTeam = WN5533YL4C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA60C2DF1D88EB5B0078D75E /* LaunchScreen.storyboard in Resources */,
-				AA60C2DC1D88EB5B0078D75E /* Assets.xcassets in Resources */,
+				AAE0AD991DB9B2620083D354 /* Assets.xcassets in Resources */,
 				AA60C2D71D88EB5B0078D75E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -318,6 +319,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -347,7 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BCUP3M7P3C;
+				DEVELOPMENT_TEAM = WN5533YL4C;
 				INFOPLIST_FILE = DreamLister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smbss.DreamLister;
@@ -360,7 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BCUP3M7P3C;
+				DEVELOPMENT_TEAM = WN5533YL4C;
 				INFOPLIST_FILE = DreamLister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smbss.DreamLister;
